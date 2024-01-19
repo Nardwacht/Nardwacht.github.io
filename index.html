@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>UX Designer Portfolio</title>
+		<link href="./uikit-3/css/uikit.min.css" rel="stylesheet" />
+		<link href="./style.css" rel="stylesheet" />
+		<script
+			src="./uikit-3/js/uikit-icons.min.js"
+			type="text/javascript"
+		></script>
+		<script src="./uikit-3/js/uikit.min.js" type="text/javascript"></script>
+		<script src="./script/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<main class="uk-container">
+			<!-- Home Section -->
+			<section id="home" class="uk-height-1-1">
+				<h1 id="landing-title">
+					Nard Broekstra - UX Designer<br />Web Developer
+				</h1>
+				<p id="welcomeMessage"></p>
+				<a href="#projects">Mijn projecten</a>
+			</section>
+			<section id="projects">
+				<h2>Projecten</h2>
+				<p>
+					Hieronder volgen een aantal projecten die ik heb uitgevoerd bij mijn
+					verschillende werkgevers. Ik laat hierbij een reeks afbeeldignen of
+					screenshots zien en deze probeer ik vervolgens zo goed mogelijk toe te
+					lichten.
+				</p>
+
+				<?php 
+				$filePath = "./projects.json";
+				$data = fopen($filePath, "r") or die("Unable to open file!");
+				for($i = 0; $i < $data.length; $i++){
+
+				}
+				?>
+
+				<h3>Sentean Group - Fusion</h3>
+				<div class="uk-cover-container" uk-height-viewport>
+					<p>
+					
+					
+					</p>
+				</div>
+				<div class="uk-cover-container" uk-height-viewport>
+					<img src="img/mini.jpg" alt="mini" />
+					<h3>Meal ordering application</h3>
+					<img src="project1.jpg" alt="Project 1" />
+					<div class="project-details">
+						<a href="project1_details.html">View Details</a>
+					</div>
+				</div>
+				<h3>CareServant</h3>
+				<div class="uk-cover-container" uk-height-viewport>
+					<img src="img/mini.jpg" alt="mini" />
+					<h3>Meal ordering application</h3>
+					<img src="project1.jpg" alt="Project 1" />
+					<div class="project-details">
+						<p>
+							This project involved redesigning the user interface of an
+							e-commerce platform to improve user engagement and sales. It
+							focused on optimizing the checkout process and enhancing product
+							discovery.
+						</p>
+						<a href="project1_details.html">View Details</a>
+					</div>
+				</div>
+				<div class="uk-cover-container" uk-height-viewport>
+					<img src="img/mini.jpg" alt="mini" />
+					<h3>Meal ordering application</h3>
+					<img src="project1.jpg" alt="Project 1" />
+					<div class="project-details">
+						<p>
+							This project involved redesigning the user interface of an
+							e-commerce platform to improve user engagement and sales. It
+							focused on optimizing the checkout process and enhancing product
+							discovery.
+						</p>
+						<a href="project1_details.html">View Details</a>
+					</div>
+				</div>
+				<div class="uk-cover-container" uk-height-viewport>
+					<img src="img/mini.jpg" alt="mini" />
+					<h3>Meal ordering application</h3>
+					<img src="project1.jpg" alt="Project 1" />
+					<div class="project-details">
+						<p>
+							This project involved redesigning the user interface of an
+							e-commerce platform to improve user engagement and sales. It
+							focused on optimizing the checkout process and enhancing product
+							discovery.
+						</p>
+						<a href="project1_details.html">View Details</a>
+					</div>
+				</div>
+
+				<div class="project-card">
+					<h3>Project 2: Mobile App for Fitness Tracking</h3>
+					<img src="project2.jpg" alt="Project 2" />
+					<div class="project-details">
+						<p>
+							Developed a mobile app that allows users to track their fitness
+							activities, set goals, and receive personalized workout
+							recommendations. The emphasis was on intuitive design and seamless
+							user experience.
+						</p>
+						<a href="project2_details.html">View Details</a>
+					</div>
+				</div>
+			</section>
+			<section id="about">
+				<h2>About Me</h2>
+			</section>
+			<section id="contact">
+				<h2>Contact Me</h2>
+			</section>
+		</main>
+
+		<footer>
+			<p class="uk-container">&copy; 2024 Nard Broekstra</p>
+		</footer>
+	</body>
+</html>
