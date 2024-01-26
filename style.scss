@@ -90,3 +90,17 @@ $base-color-white: #ffffff;
 		top: 250px;
 	}
 }
+.label{
+	background-color:$base-color-black;
+	color:$base-color-white;
+	min-width: 25px;
+	text-align: center;
+	margin: 3px;
+	padding: 10px;
+	border-radius:100px;
+}
+footer {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
