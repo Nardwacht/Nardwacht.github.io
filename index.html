@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#fcb315" />
+	<title>Nard - Frontend development &amp; UX Design</title>
+	<link href="./uikit-3/css/uikit.min.css" rel="stylesheet" />
+	<link href="./style.css" rel="stylesheet" />
+	<script src="./uikit-3/js/uikit-icons.min.js" type="text/javascript"></script>
+	<script src="./uikit-3/js/uikit.min.js" type="text/javascript"></script>
+	<script src="./script/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<main>
+		<!-- Home Section -->
+		<section id="home" class="uk-height-1-1 slide-yellow">
+			<h1 id="landing-title" class=".uk-heading-large">
+				Mijn naam is Nard Broekstra, aangenaam!<br />
+				Ik ben UX/UI Designer, Front-end Developer, [functie] en professioneel
+				levensgenieter.
+			</h1>
+			<p id="welcomeMessage">Goedenavond!</p>
+			<a href="#projects" id="btn-to-projects-container">
+				<div id="btn-to-projects"></div>
+			</a>
+		</section>
+		<section id="projects" class="slide-yellow">
+			<div class="uk-container">
+				<h2>Projecten</h2>
+				<p>
+					Hieronder volgen een aantal projecten die ik heb uitgevoerd bij mijn
+					verschillende werkgevers. Ik laat hierbij een reeks afbeeldignen of
+					screenshots zien en deze probeer ik vervolgens zo goed mogelijk toe te
+					lichten.
+				</p>
+
+				<div class="preview-rect" uk-toggle="target: #webshop" tabindex="0">
+					<img src="./img/projects/webshop-client.jpg" alt="image" />
+				</div>
+				<div id="webshop" uk-modal="" class="uk-modal">
+					<div
+						class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+						role="dialog"
+						aria-modal="true"
+					>
+						<h2 class="uk-modal-title">WebShop</h2>
+						<p class="uk-text-default">
+							Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+							infotainment app. Deze app dient om de patient te entertainene en
+							de verpleging te ontzorgen. Dit doet de app door middel van
+							verschillende soorten entertainment, maar ook door het bieden van
+							communicatiemiddelen en zorgondersteunend materiaal. Binnen deze
+							app ben ik verantwoordelijk geweest voor het ontwerpen en
+							implementeren van verschillende nieuwe componenten.
+						</p>
+						<div
+							uk-position-relative=""
+							uk-visible-toggle=""
+							uk-light=""
+							tabindex="-1"
+							uk-slider="center: true, autoplay: true"
+							class="uk-slider uk-slider-container"
+							role="region"
+							aria-roledescription="carousel"
+						>
+							<ul
+								class="uk-slider-items uk-grid"
+								aria-live="polite"
+								role="presentation"
+								id="uk-slider-1"
+							>
+								<li class="uk-width-3-4">
+									<div
+										class="uk-panel uk-grid uk-grid-stack"
+										uk-grid=""
+										uk-lightbox="animation: fade"
+									>
+										<a
+											class="uk-inline"
+											href="./img/projects/webshop-client.jpg"
+											data-caption="Hallo"
+											role="button"
+										>
+											<div class="uk-position-center uk-panel"></div>
+											<img
+												src="./img/projects/webshop-client.jpg"
+												alt=""
+												loading="lazy"
+											/>
+										</a>
+									</div>
+								</li>
+								<li class="uk-width-3-4">
+									<div
+										class="uk-panel uk-grid uk-grid-stack"
+										uk-grid=""
+										uk-lightbox="animation: fade"
+									>
+										<a
+											class="uk-inline"
+											href="./img/projects/webshop-backend-1.jpg"
+											data-caption="Hallo"
+											role="button"
+										>
+											<div class="uk-position-center uk-panel"></div>
+											<img
+												src="./img/projects/webshop-backend-1.jpg"
+												alt=""
+												loading="lazy"
+											/>
+										</a>
+									</div>
+								</li>
+								<li class="uk-width-3-4">
+									<div
+										class="uk-panel uk-grid uk-grid-stack"
+										uk-grid=""
+										uk-lightbox="animation: fade"
+									>
+										<a
+											class="uk-inline"
+											href="./img/projects/webshop-backend-2.jpg"
+											data-caption="Hallo"
+											role="button"
+										>
+											<div class="uk-position-center uk-panel"></div>
+											<img
+												src="./img/projects/webshop-backend-2.jpg"
+												alt=""
+												loading="lazy"
+											/>
+										</a>
+									</div>
+								</li>
+							</ul>
+							<a
+								class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+								href=""
+								uk-slidenav-previous=""
+								uk-slider-item="previous"
+								role="button"
+								aria-controls="uk-slider-1"
+								aria-label="Previous slide"
+								><svg width="14" height="24" viewBox="0 0 14 24">
+									<polyline
+										fill="none"
+										stroke="#000"
+										stroke-width="1.4"
+										points="12.775,1 1.225,12 12.775,23"
+									></polyline></svg
+							></a>
+							<a
+								class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+								href=""
+								uk-slidenav-next=""
+								uk-slider-item="next"
+								role="button"
+								aria-controls="uk-slider-1"
+								aria-label="Next slide"
+								><svg width="14" height="24" viewBox="0 0 14 24">
+									<polyline
+										fill="none"
+										stroke="#000"
+										stroke-width="1.4"
+										points="1.225,23 12.775,12 1.225,1"
+									></polyline></svg
+							></a>
+						</div>
+						<label class="label">UX</label>
+						<label class="label">UI</label>
+						<label class="label">C#</label>
+						<label class="label">JavaScript</label>
+						<label class="label">HTML5</label>
+						<label class="label">CSS3</label>
+					</div>
+				</div>
+			</div>
+			<div class="preview-rect" uk-toggle="target: #vod" tabindex="0">
+				<img src="./img/projects/VideoOnDemand-overview.png" alt="image" />
+			</div>
+			<div id="vod" uk-modal="" class="uk-modal">
+				<div
+					class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+					role="dialog"
+					aria-modal="true"
+				>
+					<h2 class="uk-modal-title">Video on demand</h2>
+					<p class="uk-text-default">
+						Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+						infotainment app. Deze app dient om de patient te entertainene en de
+						verpleging te ontzorgen. Dit doet de app door middel van
+						verschillende soorten entertainment, maar ook door het bieden van
+						communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app
+						ben ik verantwoordelijk geweest voor het ontwerpen en implementeren
+						van verschillende nieuwe componenten.
+					</p>
+					<div
+						uk-position-relative=""
+						uk-visible-toggle=""
+						uk-light=""
+						tabindex="-1"
+						uk-slider="center: true, autoplay: true"
+						class="uk-slider uk-slider-container"
+						role="region"
+						aria-roledescription="carousel"
+					>
+						<ul
+							class="uk-slider-items uk-grid"
+							aria-live="polite"
+							role="presentation"
+							id="uk-slider-2"
+						>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/VideoOnDemand-overview.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/VideoOnDemand-overview.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/VideoOnDemand-tv-1.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/VideoOnDemand-tv-1.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/VideoOnDemand-tv-2.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/VideoOnDemand-tv-2.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/VideoOnDemand-ipad-1.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/VideoOnDemand-ipad-1.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/VideoOnDemand-ipad-2.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/VideoOnDemand-ipad-2.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/VideoOnDemand-iphone.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/VideoOnDemand-iphone.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<a
+							class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+							href=""
+							uk-slidenav-previous=""
+							uk-slider-item="previous"
+							role="button"
+							aria-controls="uk-slider-2"
+							aria-label="Previous slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="12.775,1 1.225,12 12.775,23"
+								></polyline></svg
+						></a>
+						<a
+							class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+							href=""
+							uk-slidenav-next=""
+							uk-slider-item="next"
+							role="button"
+							aria-controls="uk-slider-2"
+							aria-label="Next slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="1.225,23 12.775,12 1.225,1"
+								></polyline></svg
+						></a>
+					</div>
+					<label class="label">UX</label>
+					<label class="label">UI</label>
+				</div>
+			</div>
+
+			<div class="preview-rect" uk-toggle="target: #tv-iphone-ui" tabindex="0">
+				<img src="./img/projects/tv-phone-ui.png" alt="image" />
+			</div>
+			<div id="tv-iphone-ui" uk-modal="" class="uk-modal">
+				<div
+					class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+					role="dialog"
+					aria-modal="true"
+				>
+					<h2 class="uk-modal-title">Television on iPhone app</h2>
+					<p class="uk-text-default">
+						Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+						infotainment app. Deze app dient om de patient te entertainene en de
+						verpleging te ontzorgen. Dit doet de app door middel van
+						verschillende soorten entertainment, maar ook door het bieden van
+						communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app
+						ben ik verantwoordelijk geweest voor het ontwerpen en implementeren
+						van verschillende nieuwe componenten.
+					</p>
+					<div
+						uk-position-relative=""
+						uk-visible-toggle=""
+						uk-light=""
+						tabindex="-1"
+						uk-slider="center: true, autoplay: true"
+						class="uk-slider uk-slider-container"
+						role="region"
+						aria-roledescription="carousel"
+					>
+						<ul
+							class="uk-slider-items uk-grid"
+							aria-live="polite"
+							role="presentation"
+							id="uk-slider-3"
+						>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/tv-phone-ui.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/tv-phone-ui.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<a
+							class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+							href=""
+							uk-slidenav-previous=""
+							uk-slider-item="previous"
+							role="button"
+							aria-controls="uk-slider-3"
+							aria-label="Previous slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="12.775,1 1.225,12 12.775,23"
+								></polyline></svg
+						></a>
+						<a
+							class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+							href=""
+							uk-slidenav-next=""
+							uk-slider-item="next"
+							role="button"
+							aria-controls="uk-slider-3"
+							aria-label="Next slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="1.225,23 12.775,12 1.225,1"
+								></polyline></svg
+						></a>
+					</div>
+					<label class="label">UX</label>
+					<label class="label">UI</label>
+				</div>
+			</div>
+
+			<div
+				class="preview-rect"
+				uk-toggle="target: #patient-pincode-ui"
+				tabindex="0"
+			>
+				<img src="./img/projects/patient-pincode-ui.jpg" alt="image" />
+			</div>
+			<div id="patient-pincode-ui" uk-modal="" class="uk-modal">
+				<div
+					class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+					role="dialog"
+					aria-modal="true"
+				>
+					<h2 class="uk-modal-title">Patient pincode UI</h2>
+					<p class="uk-text-default">
+						Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+						infotainment app. Deze app dient om de patient te entertainene en de
+						verpleging te ontzorgen. Dit doet de app door middel van
+						verschillende soorten entertainment, maar ook door het bieden van
+						communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app
+						ben ik verantwoordelijk geweest voor het ontwerpen en implementeren
+						van verschillende nieuwe componenten.
+					</p>
+					<div
+						uk-position-relative=""
+						uk-visible-toggle=""
+						uk-light=""
+						tabindex="-1"
+						uk-slider="center: true, autoplay: true"
+						class="uk-slider uk-slider-container"
+						role="region"
+						aria-roledescription="carousel"
+					>
+						<ul
+							class="uk-slider-items uk-grid"
+							aria-live="polite"
+							role="presentation"
+							id="uk-slider-4"
+						>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/patient-pincode-ui.jpg"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/patient-pincode-ui.jpg"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<a
+							class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+							href=""
+							uk-slidenav-previous=""
+							uk-slider-item="previous"
+							role="button"
+							aria-controls="uk-slider-4"
+							aria-label="Previous slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="12.775,1 1.225,12 12.775,23"
+								></polyline></svg
+						></a>
+						<a
+							class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+							href=""
+							uk-slidenav-next=""
+							uk-slider-item="next"
+							role="button"
+							aria-controls="uk-slider-4"
+							aria-label="Next slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="1.225,23 12.775,12 1.225,1"
+								></polyline></svg
+						></a>
+					</div>
+					<label class="label">UX</label>
+					<label class="label">UI</label>
+					<label class="label">JavaScript</label>
+					<label class="label">HTML5</label>
+					<label class="label">C#</label>
+					<label class="label">CSS3</label>
+				</div>
+			</div>
+
+			<div class="preview-rect" uk-toggle="target: #new-ui-design" tabindex="0">
+				<img src="./img/projects/New-UI-design-hamburger.png" alt="image" />
+			</div>
+			<div id="new-ui-design" uk-modal="" class="uk-modal">
+				<div
+					class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+					role="dialog"
+					aria-modal="true"
+				>
+					<h2 class="uk-modal-title">New UI design hamburger menu</h2>
+					<p class="uk-text-default">
+						Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+						infotainment app. Deze app dient om de patient te entertainene en de
+						verpleging te ontzorgen. Dit doet de app door middel van
+						verschillende soorten entertainment, maar ook door het bieden van
+						communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app
+						ben ik verantwoordelijk geweest voor het ontwerpen en implementeren
+						van verschillende nieuwe componenten.
+					</p>
+					<div
+						uk-position-relative=""
+						uk-visible-toggle=""
+						uk-light=""
+						tabindex="-1"
+						uk-slider="center: true, autoplay: true"
+						class="uk-slider uk-slider-container"
+						role="region"
+						aria-roledescription="carousel"
+					>
+						<ul
+							class="uk-slider-items uk-grid"
+							aria-live="polite"
+							role="presentation"
+							id="uk-slider-5"
+						>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/New-UI-design-hamburger.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/New-UI-design-hamburger.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<a
+							class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+							href=""
+							uk-slidenav-previous=""
+							uk-slider-item="previous"
+							role="button"
+							aria-controls="uk-slider-5"
+							aria-label="Previous slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="12.775,1 1.225,12 12.775,23"
+								></polyline></svg
+						></a>
+						<a
+							class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+							href=""
+							uk-slidenav-next=""
+							uk-slider-item="next"
+							role="button"
+							aria-controls="uk-slider-5"
+							aria-label="Next slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="1.225,23 12.775,12 1.225,1"
+								></polyline></svg
+						></a>
+					</div>
+					<label class="label">UX</label>
+					<label class="label">UI</label>
+				</div>
+			</div>
+
+			<div
+				class="preview-rect"
+				uk-toggle="target: #manager-app-ui"
+				tabindex="0"
+			>
+				<img src="./img/projects/Manager-app-UI.png" alt="image" />
+			</div>
+			<div id="manager-app-ui" uk-modal="" class="uk-modal">
+				<div
+					class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+					role="dialog"
+					aria-modal="true"
+				>
+					<h2 class="uk-modal-title">New UI design hamburger menu</h2>
+					<p class="uk-text-default">
+						Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+						infotainment app. Deze app dient om de patient te entertainene en de
+						verpleging te ontzorgen. Dit doet de app door middel van
+						verschillende soorten entertainment, maar ook door het bieden van
+						communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app
+						ben ik verantwoordelijk geweest voor het ontwerpen en implementeren
+						van verschillende nieuwe componenten.
+					</p>
+					<div
+						uk-position-relative=""
+						uk-visible-toggle=""
+						uk-light=""
+						tabindex="-1"
+						uk-slider="center: true, autoplay: true"
+						class="uk-slider uk-slider-container"
+						role="region"
+						aria-roledescription="carousel"
+					>
+						<ul
+							class="uk-slider-items uk-grid"
+							aria-live="polite"
+							role="presentation"
+							id="uk-slider-6"
+						>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/Manager-app-UI.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/Manager-app-UI.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/Manager-app-UI-chat.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/Manager-app-UI-chat.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<a
+							class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+							href=""
+							uk-slidenav-previous=""
+							uk-slider-item="previous"
+							role="button"
+							aria-controls="uk-slider-6"
+							aria-label="Previous slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="12.775,1 1.225,12 12.775,23"
+								></polyline></svg
+						></a>
+						<a
+							class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+							href=""
+							uk-slidenav-next=""
+							uk-slider-item="next"
+							role="button"
+							aria-controls="uk-slider-6"
+							aria-label="Next slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="1.225,23 12.775,12 1.225,1"
+								></polyline></svg
+						></a>
+					</div>
+					<label class="label">UX</label>
+					<label class="label">UI</label>
+				</div>
+			</div>
+
+			<div
+				class="preview-rect"
+				uk-toggle="target: #device-manager-app-ui"
+				tabindex="0"
+			>
+				<img src="./img/projects/device-manager-app-UI.jpg" alt="image" />
+			</div>
+			<div id="device-manager-app-ui" uk-modal="" class="uk-modal">
+				<div
+					class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+					role="dialog"
+					aria-modal="true"
+				>
+					<h2 class="uk-modal-title">Device manager app</h2>
+					<p class="uk-text-default">
+						Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+						infotainment app. Deze app dient om de patient te entertainene en de
+						verpleging te ontzorgen. Dit doet de app door middel van
+						verschillende soorten entertainment, maar ook door het bieden van
+						communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app
+						ben ik verantwoordelijk geweest voor het ontwerpen en implementeren
+						van verschillende nieuwe componenten.
+					</p>
+					<div
+						uk-position-relative=""
+						uk-visible-toggle=""
+						uk-light=""
+						tabindex="-1"
+						uk-slider="center: true, autoplay: true"
+						class="uk-slider uk-slider-container"
+						role="region"
+						aria-roledescription="carousel"
+					>
+						<ul
+							class="uk-slider-items uk-grid"
+							aria-live="polite"
+							role="presentation"
+							id="uk-slider-7"
+						>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/device-manager-app-UI.jpg"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/device-manager-app-UI.jpg"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<a
+							class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+							href=""
+							uk-slidenav-previous=""
+							uk-slider-item="previous"
+							role="button"
+							aria-controls="uk-slider-7"
+							aria-label="Previous slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="12.775,1 1.225,12 12.775,23"
+								></polyline></svg
+						></a>
+						<a
+							class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+							href=""
+							uk-slidenav-next=""
+							uk-slider-item="next"
+							role="button"
+							aria-controls="uk-slider-7"
+							aria-label="Next slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="1.225,23 12.775,12 1.225,1"
+								></polyline></svg
+						></a>
+					</div>
+					<label class="label">UX</label>
+					<label class="label">UI</label>
+				</div>
+			</div>
+
+			<div
+				class="preview-rect"
+				uk-toggle="target: #culicart-tv-ui"
+				tabindex="0"
+			>
+				<img src="./img/projects/Culicart-TV.png" alt="image" />
+			</div>
+			<div id="culicart-tv-ui" uk-modal="" class="uk-modal">
+				<div
+					class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+					role="dialog"
+					aria-modal="true"
+				>
+					<h2 class="uk-modal-title">Culicart TV</h2>
+					<p class="uk-text-default">
+						Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+						infotainment app. Deze app dient om de patient te entertainene en de
+						verpleging te ontzorgen. Dit doet de app door middel van
+						verschillende soorten entertainment, maar ook door het bieden van
+						communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app
+						ben ik verantwoordelijk geweest voor het ontwerpen en implementeren
+						van verschillende nieuwe componenten.
+					</p>
+					<div
+						uk-position-relative=""
+						uk-visible-toggle=""
+						uk-light=""
+						tabindex="-1"
+						uk-slider="center: true, autoplay: true"
+						class="uk-slider uk-slider-container"
+						role="region"
+						aria-roledescription="carousel"
+					>
+						<ul
+							class="uk-slider-items uk-grid"
+							aria-live="polite"
+							role="presentation"
+							id="uk-slider-8"
+						>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/Culicart-TV.png"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/Culicart-TV.png"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<a
+							class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+							href=""
+							uk-slidenav-previous=""
+							uk-slider-item="previous"
+							role="button"
+							aria-controls="uk-slider-8"
+							aria-label="Previous slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="12.775,1 1.225,12 12.775,23"
+								></polyline></svg
+						></a>
+						<a
+							class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+							href=""
+							uk-slidenav-next=""
+							uk-slider-item="next"
+							role="button"
+							aria-controls="uk-slider-8"
+							aria-label="Next slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="1.225,23 12.775,12 1.225,1"
+								></polyline></svg
+						></a>
+					</div>
+					<label class="label">UX</label>
+					<label class="label">UI</label>
+				</div>
+			</div>
+
+			<div
+				class="preview-rect"
+				uk-toggle="target: #banner-infographic-zorgict"
+				tabindex="0"
+			>
+				<img src="./img/projects/banner-klanten-infographic.jpg" alt="image" />
+			</div>
+			<div id="banner-infographic-zorgict" uk-modal="" class="uk-modal">
+				<div
+					class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black"
+					role="dialog"
+					aria-modal="true"
+				>
+					<h2 class="uk-modal-title">Banner klanten infographic</h2>
+					<p class="uk-text-default">
+						Bij Sentean Group heb ik vooral bijgedragen aan de patienten
+						infotainment app. Deze app dient om de patient te entertainene en de
+						verpleging te ontzorgen. Dit doet de app door middel van
+						verschillende soorten entertainment, maar ook door het bieden van
+						communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app
+						ben ik verantwoordelijk geweest voor het ontwerpen en implementeren
+						van verschillende nieuwe componenten.
+					</p>
+					<div
+						uk-position-relative=""
+						uk-visible-toggle=""
+						uk-light=""
+						tabindex="-1"
+						uk-slider="center: true, autoplay: true"
+						class="uk-slider uk-slider-container"
+						role="region"
+						aria-roledescription="carousel"
+					>
+						<ul
+							class="uk-slider-items uk-grid"
+							aria-live="polite"
+							role="presentation"
+							id="uk-slider-9"
+						>
+							<li class="uk-width-3-4">
+								<div
+									class="uk-panel uk-grid uk-grid-stack"
+									uk-grid=""
+									uk-lightbox="animation: fade"
+								>
+									<a
+										class="uk-inline"
+										href="./img/projects/banner-klanten-infographic.jpg"
+										data-caption=""
+										role="button"
+									>
+										<div class="uk-position-center uk-panel"></div>
+										<img
+											src="./img/projects/banner-klanten-infographic.jpg"
+											alt=""
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<a
+							class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav"
+							href=""
+							uk-slidenav-previous=""
+							uk-slider-item="previous"
+							role="button"
+							aria-controls="uk-slider-9"
+							aria-label="Previous slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="12.775,1 1.225,12 12.775,23"
+								></polyline></svg
+						></a>
+						<a
+							class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav"
+							href=""
+							uk-slidenav-next=""
+							uk-slider-item="next"
+							role="button"
+							aria-controls="uk-slider-9"
+							aria-label="Next slide"
+							><svg width="14" height="24" viewBox="0 0 14 24">
+								<polyline
+									fill="none"
+									stroke="#000"
+									stroke-width="1.4"
+									points="1.225,23 12.775,12 1.225,1"
+								></polyline></svg
+						></a>
+					</div>
+					<label class="label">UX</label>
+					<label class="label">UI</label>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="slide-black">
+		<p class="uk-container">© 2024 Nard Broekstra</p>
+	</footer>
+</body>
+<style id="stylus-2" type="text/css" class="stylus">
+	.content-v2 > .vehicle .imageLarge__background > div {
+		top: 0;
+	}
+</style>

@@ -4,20 +4,42 @@ $base-color-white: #ffffff;
 
 * {
 	box-sizing: border-box;
-	outline:1px solid magenta;
 }
+
 .slide-yellow {
 	background-color: $base-color-yellow;
 	color: $base-color-black;
+	::-moz-selection {
+		/* Code for Firefox */
+		color: $base-color-yellow;
+		background: $base-color-black;
+	}
+
+	::selection {
+		color: $base-color-yellow;
+		background: $base-color-black;
+	}
 }
 
-.slide-black,
-.slide-black h2 {
+.slide-black {
 	background-color: $base-color-black;
 	color: $base-color-yellow !important;
+	h2 {
+		background-color: $base-color-black;
+		color: $base-color-yellow !important;
+	}
 	.label {
 		background-color: $base-color-yellow;
 		color: $base-color-black;
+	}
+	::-moz-selection {
+		/* Code for Firefox */
+		color: $base-color-black;
+		background: $base-color-yellow;
+	}
+	::selection {
+		color: $base-color-black;
+		background: $base-color-yellow;
 	}
 }
 
@@ -36,27 +58,25 @@ $base-color-white: #ffffff;
 	height: 100px;
 	overflow: hidden;
 	position: relative;
-}
-
-.preview-rect:hover {
-	height: 100vh;
-}
-
-.preview-rect img:hover {
-	filter: grayscale(0);
-	transform: scale(1.1);
-}
-.preview-rect img {
-	transition: all 0.2s;
-	filter: grayscale(100);
-	object-fit: cover;
-	height: 100%;
-	width: 100%;
+	&:hover {
+		height: 100vh;
+		cursor: url("./img/index-finger.png"), pointer;
+	}
+	img {
+		transition: all 0.2s;
+		filter: grayscale(100);
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+		&:hover {
+			filter: grayscale(0);
+			transform: scale(1.1);
+		}
+	}
 }
 
 #home {
 	height: 100vh;
-	//background: linear-gradient(to right top, $gradient-color-red, $gradient-color-blue);
 }
 
 #landing-title,
@@ -69,16 +89,15 @@ $base-color-white: #ffffff;
 	border: solid black 1px;
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
-	border-width: 0px 5px 5px 0;
+	border-width: 0px 3px 3px 0;
 	padding: 3px;
-
+	min-width: 20px;
+	min-height: 20px;
 	width: 4vw;
 	height: 4vw;
+	top: 20%;
+	left: 30%;
 	transition: border-color;
-}
-
-#btn-to-projects:hover {
-	border-color: $base-color-yellow;
 }
 
 #btn-to-projects-container {
@@ -87,18 +106,25 @@ $base-color-white: #ffffff;
 	bottom: 5vh;
 	width: 10vw;
 	height: 10vw;
+	min-width: 50px;
+	min-height: 50px;
 	border: 1px solid black;
 	transition: background-color;
 	border-radius: 100px;
-}
-
-#btn-to-projects-container:hover {
-	background-color: $base-color-black;
+	transition: all 0.2s;
+	&:hover {
+		border: 1px solid black;
+		border-color: $base-color-yellow;
+		background-color: $base-color-black;
+		#btn-to-projects {
+			border-color: $base-color-yellow;
+		}
+	}
 }
 
 #landing-title {
 	left: 5vw;
-	top: 70vh;
+	top: 65vh;
 	text-align: left;
 	transition: opacity 1s;
 	font-weight: 400;
@@ -142,7 +168,11 @@ $base-color-white: #ffffff;
 }
 
 footer {
+	margin-top: 50px;
 	height: 100px;
 	line-height: 100px;
 	text-align: center;
+	p {
+		margin: 0;
+	}
 }

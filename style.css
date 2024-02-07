@@ -1,22 +1,41 @@
 * {
   box-sizing: border-box;
-  outline: 1px solid magenta;
 }
 
 .slide-yellow {
   background-color: #fcb315;
   color: #141414;
 }
+.slide-yellow ::-moz-selection {
+  /* Code for Firefox */
+  color: #fcb315;
+  background: #141414;
+}
+.slide-yellow ::selection {
+  color: #fcb315;
+  background: #141414;
+}
 
-.slide-black,
+.slide-black {
+  background-color: #141414;
+  color: #fcb315 !important;
+}
 .slide-black h2 {
   background-color: #141414;
   color: #fcb315 !important;
 }
-.slide-black .label,
-.slide-black h2 .label {
+.slide-black .label {
   background-color: #fcb315;
   color: #141414;
+}
+.slide-black ::-moz-selection {
+  /* Code for Firefox */
+  color: #141414;
+  background: #fcb315;
+}
+.slide-black ::selection {
+  color: #141414;
+  background: #fcb315;
 }
 
 .uk-modal-body {
@@ -35,22 +54,20 @@
   overflow: hidden;
   position: relative;
 }
-
 .preview-rect:hover {
   height: 100vh;
+  cursor: url("./img/index-finger.png"), pointer;
 }
-
-.preview-rect img:hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-
 .preview-rect img {
   transition: all 0.2s;
   filter: grayscale(100);
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+.preview-rect img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 #home {
@@ -67,15 +84,15 @@
   border: solid black 1px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  border-width: 0px 5px 5px 0;
+  border-width: 0px 3px 3px 0;
   padding: 3px;
+  min-width: 20px;
+  min-height: 20px;
   width: 4vw;
   height: 4vw;
+  top: 20%;
+  left: 30%;
   transition: border-color;
-}
-
-#btn-to-projects:hover {
-  border-color: #fcb315;
 }
 
 #btn-to-projects-container {
@@ -84,18 +101,25 @@
   bottom: 5vh;
   width: 10vw;
   height: 10vw;
+  min-width: 50px;
+  min-height: 50px;
   border: 1px solid black;
   transition: background-color;
   border-radius: 100px;
+  transition: all 0.2s;
 }
-
 #btn-to-projects-container:hover {
+  border: 1px solid black;
+  border-color: #fcb315;
   background-color: #141414;
+}
+#btn-to-projects-container:hover #btn-to-projects {
+  border-color: #fcb315;
 }
 
 #landing-title {
   left: 5vw;
-  top: 70vh;
+  top: 65vh;
   text-align: left;
   transition: opacity 1s;
   font-weight: 400;
@@ -138,7 +162,11 @@
 }
 
 footer {
+  margin-top: 50px;
   height: 100px;
   line-height: 100px;
   text-align: center;
+}
+footer p {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

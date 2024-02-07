@@ -8,6 +8,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#fcb315">
 	<title>Nard - Frontend development & UX Design</title>
 	<link href="./uikit-3/css/uikit.min.css" rel="stylesheet" />
 	<link href="./style.css" rel="stylesheet" />
@@ -72,40 +73,8 @@
 						</div>
 					</div>					
 					<?php
-				}
-				foreach($jsonData as $value)
-				{ 
-				?>
-
-
-				<div class='uk-grid'>
-					<h2 class='.uk-heading-medium'><?php echo $value['title'] ?></h2>
-					<p class='uk-text-default'><?php echo $value['text'] ?></p>
-					<div uk-position-relative uk-visible-toggle uk-light tabindex="-1" uk-slider="center: true, autoplay: true">
-						<ul class="uk-slider-items uk-grid">
-							<?php foreach($value["images"] as $image){ ?>
-							<li class="uk-width-3-4">
-								<div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: fade">
-									<div>
-										<a class="uk-inline" href="<?php echo $image ?>" data-caption="<?php echo $value['caption']; ?>">
-											<div class="uk-position-center uk-panel"></div>
-											<img src="<?php echo $image ?>" width="600" height="400" alt="" loading="lazy">
-										</a>
-									</div>
-								</div>
-							</li>
-							<?php } ?>
-						</ul>
-						<a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
-						<a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
-					</div>
-				</div>
-				<div class="uk-grid">
-					<?php foreach($value['labels'] as $lbl) { ?>
-					<label class="label"><?php echo $lbl ?></label>
-					<?php } ?>
-				</div>
-			<?php } ?>
+				} ?>
+			
 			</div>
 		</section>
 	</main>
