@@ -1,5 +1,6 @@
 [
 	{
+		"id": "webshop",
 		"title": "WebShop",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": [
@@ -11,6 +12,7 @@
 		"caption": "Hallo"
 	},
 	{
+		"id": "vod",
 		"title": "Video on demand",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": [
@@ -21,10 +23,11 @@
 			"./img/projects/VideoOnDemand-ipad-2.png",
 			"./img/projects/VideoOnDemand-iphone.png"
 		],
-		"labels": ["UX", "UI"],		
+		"labels": ["UX", "UI"],
 		"caption": ""
 	},
 	{
+		"id": "tv-iphone-ui",
 		"title": "Television on iPhone app",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": ["./img/projects/tv-phone-ui.png"],
@@ -32,6 +35,7 @@
 		"caption": ""
 	},
 	{
+		"id": "patient-pincode-ui",
 		"title": "Patient pincode UI",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": ["./img/projects/patient-pincode-ui.jpg"],
@@ -39,6 +43,7 @@
 		"caption": ""
 	},
 	{
+		"id": "new-ui-design",
 		"title": " New UI design hamburger menu",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": ["./img/projects/New-UI-design-hamburger.png"],
@@ -46,6 +51,7 @@
 		"caption": ""
 	},
 	{
+		"id": "manager-app-ui",
 		"title": " New UI design hamburger menu",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": [
@@ -56,6 +62,7 @@
 		"caption": ""
 	},
 	{
+		"id": "device-manager-app-ui",
 		"title": "Device manager app",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": ["./img/projects/device-manager-app-UI.jpg"],
@@ -63,6 +70,7 @@
 		"caption": ""
 	},
 	{
+		"id": "culicart-tv-ui",
 		"title": "Culicart TV",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": ["./img/projects/Culicart-TV.png"],
@@ -70,6 +78,7 @@
 		"caption": ""
 	},
 	{
+		"id": "banner-infographic-zorgict",
 		"title": "Banner klanten infographic",
 		"text": "Bij Sentean Group heb ik vooral bijgedragen aan de patienten infotainment app. Deze app dient om de patient te entertainene en de verpleging te ontzorgen. Dit doet de app door middel van verschillende soorten entertainment, maar ook door het bieden van communicatiemiddelen en zorgondersteunend materiaal. Binnen deze app ben ik verantwoordelijk geweest voor het ontwerpen en implementeren van verschillende nieuwe componenten.",
 		"images": ["./img/projects/banner-klanten-infographic.jpg"],

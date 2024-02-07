@@ -2,6 +2,10 @@ $base-color-yellow: #fcb315;
 $base-color-black: #141414;
 $base-color-white: #ffffff;
 
+* {
+	box-sizing: border-box;
+	outline:1px solid magenta;
+}
 .slide-yellow {
 	background-color: $base-color-yellow;
 	color: $base-color-black;
@@ -11,6 +15,43 @@ $base-color-white: #ffffff;
 .slide-black h2 {
 	background-color: $base-color-black;
 	color: $base-color-yellow !important;
+	.label {
+		background-color: $base-color-yellow;
+		color: $base-color-black;
+	}
+}
+
+.uk-modal-body {
+	border-radius: 15px;
+	img {
+		max-height: 45vh;
+		height: 100%;
+	}
+}
+
+.preview-rect {
+	transition: all 0.8s;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
+
+.preview-rect:hover {
+	height: 100vh;
+}
+
+.preview-rect img:hover {
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.preview-rect img {
+	transition: all 0.2s;
+	filter: grayscale(100);
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
 #home {
@@ -90,15 +131,16 @@ $base-color-white: #ffffff;
 		top: 250px;
 	}
 }
-.label{
-	background-color:$base-color-black;
-	color:$base-color-white;
+.label {
+	background-color: $base-color-black;
+	color: $base-color-white;
 	min-width: 25px;
 	text-align: center;
 	margin: 3px;
 	padding: 10px;
-	border-radius:100px;
+	border-radius: 100px;
 }
+
 footer {
 	height: 100px;
 	line-height: 100px;
