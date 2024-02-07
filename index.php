@@ -22,7 +22,7 @@
 		<!-- Home Section -->
 		<section id="home" class="uk-height-1-1 slide-yellow">
 			<h1 id="landing-title" class=".uk-heading-large">
-				Mijn naam is Nard Broekstra, aangenaam!<br />
+				Mijn naam is Nard, aangenaam!<br />
 				Ik ben UX/UI Designer, Front-end Developer, [functie] en professioneel levensgenieter.
 			</h1>
 			<p id="welcomeMessage">Goedemiddag!</p>
@@ -48,33 +48,37 @@
 					</div>
 					<div id="<?php echo $value['id'] ?>" uk-modal>
 						<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical slide-black">
+							<button class="uk-close-large uk-modal-close" type="button" aria-label="Close" uk-close></button>
 							<h2 class="uk-modal-title"><?php echo $value['title'] ?></h2>
-							<p class='uk-text-default'><?php echo $value['text'] ?></p>
-							<div uk-position-relative uk-visible-toggle uk-light tabindex="-1" uk-slider="center: true, autoplay: true">
-								<ul class="uk-slider-items uk-grid">
-									<?php foreach($value["images"] as $image){ ?>
-									<li class="uk-width-3-4">
-										<div class="uk-panel" uk-grid uk-lightbox="animation: fade">
-											<a class="uk-inline" href="<?php echo $image ?>" data-caption="<?php echo $value['caption']; ?>">
-												<div class="uk-position-center uk-panel"></div>
-												<img src="<?php echo $image ?>" alt="" loading="lazy">
-											</a>
-										</div>
-									</li>
-									<?php } ?>
-								</ul>
-								<a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
-								<a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+							<div class="uk-grid">
+								<p class='uk-text-default'><?php echo $value['text'] ?></p>
+								<div uk-position-relative uk-visible-toggle uk-light tabindex="-1" uk-slideshow="autoplay: true">
+									<ul class="uk-slideshow-items">
+										<?php foreach($value["images"] as $image){ ?>
+										<li>
+											<div class="uk-panel" uk-grid uk-lightbox="animation: fade">
+												<a class="uk-inline" href="<?php echo $image ?>" data-caption="<?php echo $value['caption']; ?>">
+													<div class="uk-position-center uk-panel"></div>
+													<img src="<?php echo $image ?>" alt="" loading="lazy" data-magnifier-mode="glass">
+												</a>
+											</div>
+										</li>
+										
+										<?php } ?>
+									</ul>
+									<a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+									<a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+								</div>
 							</div>
 							<?php foreach($value['labels'] as $lbl) { ?>
 								<label class="label"><?php echo $lbl ?></label>
 							<?php } ?>
 						</div>
-						</div>
-					</div>					
+					</div>
 					<?php
 				} ?>
 			
+				</div>					
 			</div>
 		</section>
 	</main>
