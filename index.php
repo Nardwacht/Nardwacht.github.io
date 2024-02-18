@@ -4,7 +4,6 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,14 +15,13 @@
 	<script src="./uikit-3/js/uikit.min.js" type="text/javascript"></script>
 	<script src="./script/script.js" type="text/javascript"></script>
 </head>
-
 <body>
 	<main>
 		<!-- Home Section -->
 		<section id="home" class="uk-height-1-1 slide-yellow">
 			<h1 id="landing-title" class=".uk-heading-large">
 				Mijn naam is Nard, aangenaam!<br />
-				Ik ben UX/UI Designer, Front-end Developer, [functie] en professioneel levensgenieter.
+				Ik ben UX/UI Designer, Front-end Developer, en professioneel levensgenieter.
 			</h1>
 			<p id="welcomeMessage">Goedemiddag!</p>
 			<a href="#projects" id="btn-to-projects-container">
@@ -32,18 +30,17 @@
 		</section>
 		<section id="projects" class="slide-yellow">
 			<div class="uk-container">
-				<h2>Projecten</h2>
-				<p>
-					Hieronder volgen een aantal projecten die ik heb uitgevoerd bij mijn
-					verschillende werkgevers. Ik laat hierbij een reeks afbeeldignen of
-					screenshots zien en deze probeer ik vervolgens zo goed mogelijk toe te
-					lichten.
+				<h2 class="uk-text-lead">Projecten</h2>
+				<p class="intro-text uk-text-default">
+					Hieronder volgen een aantal projecten die ik heb uitgevoerd bij mijn verschillende werkgevers.<br>	
+					Ik laat hierbij een reeks afbeeldingen of screenshots zien en deze probeer ik vervolgens zo goed mogelijk toe te lichten.
 				</p>
-
+			</div>
 				<?php foreach($jsonData as $value)
 				{ 
 					?>
 					<div class="preview-rect" uk-toggle="target: #<?php echo $value['id'] ?>">
+						<div class="projectPreviewTitle uk-text-large uk-text-uppercase"><?php echo $value['title'] ?></div>
 						<img src="<?php echo $value['images'][0] ?>" alt="image" />	
 					</div>
 					<div id="<?php echo $value['id'] ?>" uk-modal>
@@ -52,12 +49,12 @@
 							<h2 class="uk-modal-title"><?php echo $value['title'] ?></h2>
 							<div class="uk-grid">
 								<p class='uk-text-default'><?php echo $value['text'] ?></p>
-								<div uk-position-relative uk-visible-toggle uk-light tabindex="-1" uk-slideshow="autoplay: true">
+								<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true" uk-slideshow="autoplay: true">
 									<ul class="uk-slideshow-items">
 										<?php foreach($value["images"] as $image){ ?>
 										<li>
 											<div class="uk-panel" uk-grid uk-lightbox="animation: fade">
-												<a class="uk-inline" href="<?php echo $image ?>" data-caption="<?php echo $value['caption']; ?>">
+												<a class="uk-inline" href="<?php echo $image ?>">
 													<div class="uk-position-center uk-panel"></div>
 													<img src="<?php echo $image ?>" alt="" loading="lazy" data-magnifier-mode="glass">
 												</a>
@@ -77,14 +74,11 @@
 					</div>
 					<?php
 				} ?>
-			
-				</div>					
-			</div>
+				</div>				
 		</section>
 	</main>
 	<footer class="slide-black">
 		<p class="uk-container">&copy; 2024 Nard Broekstra</p>
 	</footer>
 </body>
-
 </html>
