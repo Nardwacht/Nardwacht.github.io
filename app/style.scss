@@ -5,6 +5,11 @@ $base-color-white: #ffffff;
 * {
 	box-sizing: border-box;
 }
+
+html{
+	scroll-behavior: smooth;
+}
+
 .intro-text {
 	padding-bottom: 50px;
 }
@@ -53,34 +58,31 @@ $base-color-white: #ffffff;
 	height: auto;
 }
 
-.uk-slideshow {
-	min-height: 20vh;
-	aspect-ratio: 16/9;
-	width: 100%;
-	height: auto;
-	max-height: 50vh;
-	img {
-		object-fit: cover;
-	}
-}
-.uk-lightbox-items > .uk-active {
-	background: $base-color-white;
+.uk-modal-title {
+	margin: 10px 0;
 }
 
-.uk-modal-body {
-	border-radius: 15px;
-	img {
-		height: 100%;
-	}
-
-	.uk-modal-close {
-		color: $base-color-yellow;
+.uk-modal {
+	button {
 		position: absolute;
+		top:30px;
 		right: 30px;
 	}
-	.uk-panel {
-		margin-bottom: 10px;
+}
+
+.project-image-container{
+	border-radius: 20px;
+	margin: 10px 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: $base-color-white;
+	.project-image {
+
 	}
+}
+
+.labelContainer {
+	line-height: 50px;
 }
 
 .preview-rect {
@@ -98,6 +100,7 @@ $base-color-white: #ffffff;
 		transition: all 0.2s;
 		object-fit: cover;
 		width: 100%;
+		background-color: $base-color-white;
 		filter: grayscale(0);
 		&:hover {
 			filter: grayscale(1);

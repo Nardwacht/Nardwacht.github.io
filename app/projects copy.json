@@ -1,0 +1,96 @@
+[
+	{
+		"id": "webshop",
+		"title": "WebShop",
+		"text": "Bij dit project heb ik alle stappen doorlopen van het ontwerpen van de interne webshop tot aan het implementeren en testen bij de klant. Deze webshop kan ingezet worden voor het bestellen van maaltijden binnen het ziekenhuis, maar bijvoorbeeld ook als webshop voor in hotels. Ik ben hierbij begonnen met het maken van de wireframes en het UI ontwerp, waarbij ik zowel de use cases voor de klant als de keuken in acht nam. Hierbij wordt rekening gehouden met verschillende order strategieën, mogelijkheid tot het instellen van valuta, artikelvoorraad en tot slot het maken van de bezorgroute en hoe dit eruit komt te zien. Op basis hiervan heb ik het data model uitgewerkt met behulp van een ERD en tot slot samen met een Backend developer de webpagina’s uitgewerkt in ASP.NET (Razor Pages en Web Forms) en met Javascript en SASS de pagina’s vormgegeven en interactief gemaakt. Hierna zijn de pagina’s van de webshop uitvoerig getest op iPhone, iPad en AppleTV om zeker te zijn dat ieder device goed te bedienen was qua accessibility en responsiveness.",
+		"images": [
+			"webshop-client.jpg",
+			"webshop-backend-1.jpg",
+			"webshop-backend-2.jpg"
+		],
+		"thumbnails": [
+			"webshop-client.jpg",
+			"webshop-backend-1.jpg",
+			"webshop-backend-2.jpg"
+		],
+		"labels": ["UX", "UI", "C#", "JavaScript", "HTML5", "CSS3"],
+		"url": ""
+	},
+	{
+		"id": "vod",
+		"title": "Video on demand",
+		"text": "Binnen de Fusion app is het mogelijk om een selectie films en series te bekijken via de interne VoD app. Voor de functionaliteit van deze app heb ik een aantal user interfaces ontworpen, eentje voor iPad en eentje voor AppleTV. Met deze apparaten moest er rekening gehouden worden met hoe de interface bediend ging worden met een televisie afstandsbediening. Hierbij was het belangrijk dat de gebruiker op ieder moment weet welk element er geselecteerd is en wat zijn mogelijke vervolgacties zijn. Ook heeft een doorsnee televisie afstandsbediening maar een beperkt aantal knoppen, waarmee toch alle functionaliteiten te bedienen zijn. (Links, rechts, omhoog, omlaag, terug en OK)",
+		"images": [
+			"VideoOnDemand-overview.png",
+			"VideoOnDemand-tv-1.png",
+			"VideoOnDemand-tv-2.png",
+			"VideoOnDemand-ipad-1.png",
+			"VideoOnDemand-ipad-2.png",
+			"VideoOnDemand-iphone.png"
+		],
+		"thumbnails": [
+			"VideoOnDemand-overview.png",
+			"VideoOnDemand-tv-1.png",
+			"VideoOnDemand-tv-2.png",
+			"VideoOnDemand-ipad-1.png",
+			"VideoOnDemand-ipad-2.png",
+			"VideoOnDemand-iphone.png"
+		],
+		"labels": ["UX", "UI"],
+		"url": ""
+	},
+	{
+		"id": "tv-iphone-ui",
+		"title": "Television on iPhone app",
+		"text": "In dit project was het mijn taak om het aanbod van TV kanalen weer te geven op het kleine scherm van een iPhone. Voorheen was het enkel op een iPad mogelijk om televisie te kijken, maar na veel vraag is de iPhone app uitgebreid om dit te ondersteunen. De belangrijkste eisen waren om de gebruiker niet te veel informatie te geven op het kleine scherm, maar toch voldoende om te weten welk kanaal er geselecteerd was, ondertiteling aan of uit te schakelen, welk programma er als volgende op de zender uitgezonden wordt en tot slot hoe de gebruiker op volledig scherm televisie kan kijken.",
+		"images": ["tv-phone-ui.png"],
+		"thumbnails": ["tv-phone-ui.png"],
+		"labels": ["UX", "UI"],
+		"url": ""
+	},
+	{
+		"id": "patient-pincode-ui",
+		"title": "Patient pincode UI",
+		"text": "Het doel bij dit project was om de patiënteninformatie op de iPad te beveiligen door middel van een pincode die wordt opgeslagen in de Backend van de server. Natuurlijk kan je op een iPad vanuit iPadOS ook een pincode instellen, maar zodra een patiënt ontslagen is uit het ziekenhuis is er geen manier om deze pincode handmatig te wissen. Vandaar de vraag om deze te koppelen via de Backend van de server. Hierbij heb ik een UI ontwerp gemaakt en daarna de webpagina’s voor het instellen van de pincode uitgewerkt (C#, Razor Pages). Via JavaScript wordt de pincode gevalideerd en naar de server verzonden. Ook is via JavaScript de functionaliteit toegevoegd om met de afstandsbediening van een AppleTV de pincode in te stellen.",
+		"images": ["patient-pincode-ui.jpg"],
+		"thumbnails": ["patient-pincode-ui.jpg"],
+		"labels": ["UX", "UI", "JavaScript", "HTML5", "C#", "CSS3"],
+		"url": ""
+	},
+	{
+		"id": "new-ui-design",
+		"title": "New UI design hamburger menu",
+		"text": "Binnen de Fusion app is het mogelijk om het uiterlijk en de layout van de informatie aan te passen. Een van de mogelijkheden die nog niet bestond was de SideBar of het Hamburger menu. Dit is in webdevelopment al jaren een begrip, maar om dit binnen een iOS app aan te bieden was een volledig nieuwe uitdaging. Daarnaast was het belangrijk dat de nieuwe menusoort bruikbaar is op zowel een iPad als op een AppleTV.",
+		"images": ["New-UI-design-hamburger.png"],
+		"thumbnails": ["New-UI-design-hamburger.png"],
+		"labels": ["UX", "UI"],
+		"url": ""
+	},
+	{
+		"id": "manager-app-ui",
+		"title": "Manager app UI",
+		"text": "Om de verpleging in staat te stellen om te communiceren met patienten, op afstand inzicht te geven in de huidige bezetting van de afdeling en de lopende service verzoeken te monitoren is er een Manager app in het leven geroepen. Hiermee kan de verpleging contact houden met de patiënten via Chat of een videocall. Ook kunnen verplegers onderling overleggen over een patiënt, dit kan van pas komen als de arts op een andere afdeling is maar er toch een dringende vraag gesteld moet worden. De app wordt enkel gebruikt op iPhones of iPod touches.",
+		"images": ["Manager-app-UI.png", "Manager-app-UI-chat.png"],
+		"thumbnails": ["Manager-app-UI.png", "Manager-app-UI-chat.png"],
+		"labels": ["UX", "UI"],
+		"url": ""
+	},
+	{
+		"id": "device-manager-app-ui",
+		"title": "Device manager app",
+		"text": "Om personeel of servicemedewerkers in staat te stellen apparaten te beheren via het MDM is de device manager app ontworpen. Hiermee kunnen apparaten worden diagnostiseerd op problemen, hersteld worden naar fabrieksinstellingen en klaargemaakt worden voor de volgende gebruiker. De verpleger scant een QR code of zoekt op de locatie en voert de gewenste actie uit.",
+		"images": ["device-manager-app-UI.jpg"],
+		"thumbnails": ["device-manager-app-UI.jpg"],
+		"labels": ["UX", "UI"],
+		"url": ""
+	},
+	{
+		"id": "banner-infographic-zorgict",
+		"title": "Banner klanten infographic",
+		"text": "Een banner die is ontworpen voor de Zorg & ICT beurs. Hierop staan de unique selling points samen met de KPI's van het bedrijf. Deze afbeelding is uitgeprint op een formaat van 200x140cm en op de beurs stand gemonteerd.",
+		"images": ["banner-klanten-infographic.jpg"],
+		"thumbnails": ["banner-klanten-infographic.jpg"],
+		"labels": ["UX", "UI", "Graphic Design"],
+		"url": ""
+	}
+]
