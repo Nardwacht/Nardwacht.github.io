@@ -39,7 +39,7 @@
 					?>
 					<div class="preview-rect" uk-toggle="target: #<?php echo $value['id'] ?>">
 						<div class="projectPreviewTitle uk-text-large uk-text-uppercase"><?php echo $value['title'] ?></div>
-						<img src="./img/thumbnails/<?php echo $value['images'][0] ?>" alt="image" />	
+						<img src="./img/thumbnails/<?php echo $value['images'][0] ?>.webp" alt="image" />	
 					</div>
 					<div id="<?php echo $value['id'] ?>" uk-modal>
 						<div class="uk-modal-dialog uk-margin-auto-vertical slide-black">
@@ -49,9 +49,9 @@
 								<p class='uk-text-default'><?php echo $value['text'] ?></p>
 								<div class="uk-position-relative uk-visible-toggle uk-light">
 									<?php foreach($value["images"] as $image){ ?>
-										<a href="./img/projects/<?php echo $image ?>">
+										<a href="./img/projects/<?php echo $image ?>.jpg">
 											<div class="project-image-container">
-												<img class="project-image" src="./img/thumbnails/<?php echo $image ?>" alt="" loading="lazy" data-magnifier-mode="glass">
+												<img class="project-image" src="./img/thumbnails/<?php echo $image ?>.webp" alt="" loading="lazy" data-magnifier-mode="glass">
 											</div>
 										</a>
 									<?php } ?>
