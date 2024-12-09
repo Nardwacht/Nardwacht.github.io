@@ -3,16 +3,8 @@
 		"id": "webshop",
 		"title": "WebShop",
 		"text": "Bij dit project heb ik alle stappen doorlopen van het ontwerpen van de interne webshop tot aan het implementeren en testen bij de klant. Deze webshop kan ingezet worden voor het bestellen van maaltijden binnen het ziekenhuis, maar bijvoorbeeld ook als webshop voor in hotels. Ik ben hierbij begonnen met het maken van de wireframes en het UI ontwerp, waarbij ik zowel de use cases voor de klant als de keuken in acht nam. Hierbij wordt rekening gehouden met verschillende order strategieën, mogelijkheid tot het instellen van valuta, artikelvoorraad en tot slot het maken van de bezorgroute en hoe dit eruit komt te zien. Op basis hiervan heb ik het data model uitgewerkt met behulp van een ERD en tot slot samen met een Backend developer de webpagina’s uitgewerkt in ASP.NET (Razor Pages en Web Forms) en met Javascript en SASS de pagina’s vormgegeven en interactief gemaakt. Hierna zijn de pagina’s van de webshop uitvoerig getest op iPhone, iPad en AppleTV om zeker te zijn dat ieder device goed te bedienen was qua accessibility en responsiveness.",
-		"images": [
-			"webshop-client",
-			"webshop-backend-1",
-			"webshop-backend-2"
-		],
-		"thumbnails": [
-			"webshop-client",
-			"webshop-backend-1",
-			"webshop-backend-2"
-		],
+		"images": ["webshop-client", "webshop-backend-1", "webshop-backend-2"],
+		"thumbnails": ["webshop-client", "webshop-backend-1", "webshop-backend-2"],
 		"labels": ["UX", "UI", "C#", "JavaScript", "HTML5", "CSS3"],
 		"url": ""
 	},
@@ -21,17 +13,17 @@
 		"title": "Video on demand",
 		"text": "Binnen de Fusion app is het mogelijk om een selectie films en series te bekijken via de interne VoD app. Voor de functionaliteit van deze app heb ik een aantal user interfaces ontworpen, eentje voor iPad en eentje voor AppleTV. Met deze apparaten moest er rekening gehouden worden met hoe de interface bediend ging worden met een televisie afstandsbediening. Hierbij was het belangrijk dat de gebruiker op ieder moment weet welk element er geselecteerd is en wat zijn mogelijke vervolgacties zijn. Ook heeft een doorsnee televisie afstandsbediening maar een beperkt aantal knoppen, waarmee toch alle functionaliteiten te bedienen zijn. (Links, rechts, omhoog, omlaag, terug en OK)",
 		"images": [
-			"VideoOnDemand-overview",
-			"VideoOnDemand-tv-1",
-			"VideoOnDemand-tv-2",
+			"VideoOnDemand-1",
+			"VideoOnDemand-appletv-1",
+			"VideoOnDemand-appletv-2",
 			"VideoOnDemand-ipad-1",
 			"VideoOnDemand-ipad-2",
 			"VideoOnDemand-iphone"
 		],
 		"thumbnails": [
-			"VideoOnDemand-overview",
-			"VideoOnDemand-tv-1",
-			"VideoOnDemand-tv-2",
+			"VideoOnDemand-1",
+			"VideoOnDemand-appletv-1",
+			"VideoOnDemand-appletv-2",
 			"VideoOnDemand-ipad-1",
 			"VideoOnDemand-ipad-2",
 			"VideoOnDemand-iphone"
